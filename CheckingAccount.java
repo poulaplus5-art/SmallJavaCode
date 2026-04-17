@@ -40,4 +40,7 @@ public class CheckingAccount extends BankAccount {
         return super.toString() + String.format(" | Overdraft Limit: $%.2f | Fee: $%.2f",
                 overdraftLimit, transactionFee);
     }
+    
+    public void NewMethod5() {
+}
 }
